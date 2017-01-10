@@ -1,0 +1,54 @@
+<head>
+<link rel="stylesheet" href="./style.css">
+<script src="./main.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+<audio id="green" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" preload="auto"></audio>
+<audio id="red" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" preload="auto"></audio>
+<audio id="yellow" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" preload="auto"></audio>
+<audio id="blue" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" preload="auto"></audio>
+<audio id="mistake" src="https://s3.amazonaws.com/cojamalo/simon/Simon.mp3" preload="auto"></audio>
+</head>
+
+
+<div class="svg-container">
+  <div class="menu">
+    <div class="counter">--</div>
+    <div id="p_label">power:</div>
+    <div id="power-switch">
+    <label class="switch" >
+      <input type="checkbox">
+      <div class="slider round"></div>
+    </label>
+    </div>
+    <div id="s_label">strict mode:</div>
+    <div id="strict-switch">
+      
+    <label class="switch" >
+      <input type="checkbox">
+      <div class="slider round"></div>
+    </label>
+    </div>
+   <a class="threeDee" href="#">restart</a> 
+    
+</div>
+<!-- A big thank you to the circulus.svg for helping me generate this svg -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-2 -2 504 504" id="menu" style="transform-origin: 50% 50% 0px; transform: translate3d(0px, 0px, 0px); touch-action: none; user-select: none;">
+
+  <style>#menu{display:block;margin:0 auto;}a{cursor:pointer;outline:none;}.sector{transition:all .1s linear;stroke:#111;}.sector,.menu-trigger{pointer-events:auto;}.menu-trigger:hover,.menu-trigger:focus{cursor:pointer;}symbol{overflow:visible;}</style>
+  
+<g id="symbolsContainer">    
+
+</g>
+<g id="itemsContainer">
+  <a id="item-1" role="button" tabindex="0"  transform="matrix(1,0,0,1,0,0)" data-svg-origin="250 250" style=""><path stroke="#111" d="M355,250 l145,0 A250,250 0 0,0 250.00000000000003,0 l-2.842170943040401e-14,145 A105,105 0 0,1 355,250" class="sector noSelect" id="item-1"/></a>
+  <a id="item-2" role="button" tabindex="0" transform="matrix(0,-1,1,0,0,500)" data-svg-origin="250 250" style=""><path stroke="#111" d="M355,250 l145,0 A250,250 0 0,0 250.00000000000003,0 l-2.842170943040401e-14,145 A105,105 0 0,1 355,250" class="sector noSelect" id="item-2"/></a>
+  <a id="item-3" role="button" tabindex="0" transform="matrix(-1,0,0,-1,500,500)" data-svg-origin="250 250" style=""><path stroke="#111" d="M355,250 l145,0 A250,250 0 0,0 250.00000000000003,0 l-2.842170943040401e-14,145 A105,105 0 0,1 355,250" class="sector noSelect" id="item-3"/></a>
+  <a id="item-4" role="button" tabindex="0" transform="matrix(0,1,-1,0,500.00000000000006,0)" data-svg-origin="250 250" style=""><path stroke="#111" d="M355,250 l145,0 A250,250 0 0,0 250.00000000000003,0 l-2.842170943040401e-14,145 A105,105 0 0,1 355,250" class="sector noSelect" id="item-4"/></a>
+</g>
+  
+<g id="trigger" class="trigger menu-trigger" role="button">
+<circle cx="250" cy="250" r="30"/>
+</g>
+</svg>
+</div>
+<div class="center-align" id="footer">Project coded by Connor Lenio &copy2016. SVG coded with Circulus.svg by Sara Soueidan. Slider code adapted from W3schools.com</div>
